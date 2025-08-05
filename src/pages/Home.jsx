@@ -3,8 +3,8 @@ import { NavLink } from 'react-router-dom'
 
 export const Home = () => {
   return (
-    <main class="home-content">
-    <section class="intro">
+    <main className="home-content">
+    <section className="intro">
       <h1>Welcome to MySite</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae ante vitae nisl congue tincidunt.
@@ -13,7 +13,7 @@ export const Home = () => {
       </p>
     </section>
   
-    <section class="features">
+    <section className="features">
       <h2>Why Choose Us?</h2>
       <ul>
         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
@@ -22,7 +22,7 @@ export const Home = () => {
       </ul>
     </section>
   
-    <section class="about">
+    <section className="about">
       <h2>About Our Website</h2>
       <p>
         Praesent nec magna at metus sagittis fermentum. Aenean vitae eros at libero consequat dignissim.
